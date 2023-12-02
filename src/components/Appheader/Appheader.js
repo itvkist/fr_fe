@@ -17,7 +17,7 @@ const AppHeader = () => {
   return (
     <Space className="header_space">
       <Button className="header_space_brand" href="/" type="link">
-        <CgWebsite size={64} />
+        <img src="/logo192.png" style={{width: "50px"}}/>
       </Button>
       <Space className="auth_buttons">
         {user ? (
